@@ -27,6 +27,7 @@ let handleRequest = function (request, response) {
   let server = http.createServer(handleRequest);
   // Listen on port 8080
   server.listen(8080);
+  // IS PUSH WORKING?
   
 console.log('Server started on port 8080');
 client.on('message', botReply)
